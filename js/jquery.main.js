@@ -1,6 +1,6 @@
 // page init
 jQuery(function(){
-	initAjaxTabs();
+	// initAjaxTabs();
 	initAjaxContent();
 });
 
@@ -53,17 +53,17 @@ function initInputs() {
 }
 
 // init ajax tabs
-function initAjaxTabs(){
-	jQuery('#wrapper').ajaxTabs({
-		animSpeed: jQuery.browser.msie && jQuery.browser.version < 9 ? 0 : 400,
-		addToParent: true,
-		tabLinks: '#nav a',
-		ajaxHolder: '#main',
-		onTabLoaded: function(newTab) {
-			initAjaxContent();
-		}
-	});
-}
+// function initAjaxTabs(){
+// 	jQuery('#wrapper').ajaxTabs({
+// 		animSpeed: jQuery.browser.msie && jQuery.browser.version < 9 ? 0 : 400,
+// 		addToParent: true,
+// 		tabLinks: '#nav a',
+// 		ajaxHolder: '#main',
+// 		onTabLoaded: function(newTab) {
+// 			initAjaxContent();
+// 		}
+// 	});
+// }
 
 // background stretching
 function initBackgroundResize() {
